@@ -14,16 +14,7 @@ import java.util.*;
  * 2. Right-click src → New → Package → enter: com.tradingsim
  * 3. Right-click package → New → Class → Name: TradingSimulator (ensure 'public static void main' is checked)
  * 4. Paste this file's contents into TradingSimulator.java and Save.
- *
- * Alternatively, you can split each inner class (Market, Stock, User, Portfolio, Transaction, Persistence)
- * into separate .java files inside the com.tradingsim package — Eclipse will handle compilation automatically.
- *
- * Compile / Run from CLI:
- *   javac -d bin src/com/tradingsim/TradingSimulator.java
- *   java -cp bin com.tradingsim.TradingSimulator
- *
- * This file is intentionally self-contained so importing into Eclipse is quick.
- */
+
 public class TradingSimulator {
 
     private final Market market = new Market();
